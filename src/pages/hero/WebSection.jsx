@@ -138,7 +138,7 @@ const WebSection = () => {
             className="flex justify-center w-full h-90"
           >
             <img
-              src="https://digitalcatalyst.in/blog/wp-content/uploads/2022/03/major-components-of-digital-marketing.png"
+              src="https://discovertemplate.com/wp-content/uploads/2020/10/Marketing-Animated-GIF-Icon-pack.gif"
               alt="Digital Marketing"
               className="rounded-2xl shadow-2xl w-full md:w-4/5"
             />

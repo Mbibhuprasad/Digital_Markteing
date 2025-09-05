@@ -91,7 +91,7 @@ export default function DigitalMarketingSystem() {
           className="flex justify-center"
         >
           <img
-            src="https://www.monash.edu/__data/assets/image/0006/3997950/illustration-digital-marketing.jpg"
+            src="https://duttainnovations.com/wp-content/uploads/2019/11/digital-marketing-practices.gif"
             alt="Digital Marketing System"
             className="w-[620px] h-auto rounded-[1rem] drop-shadow-2xl"
           />
