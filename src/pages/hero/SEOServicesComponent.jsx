@@ -12,50 +12,67 @@ const SEOServicesComponent = () => {
     SEO: {
       title: "Search Engine Optimization (SEO)",
       description:
-        "Boost your website's visibility on search engines with keyword optimization, link building, and technical SEO.",
+        "Boost your website's visibility on search engines with keyword optimization, link building, and technical SEO. Our SEO strategy ensures your brand ranks higher, drives consistent organic traffic, improves site authority, and sustains long-term growth by targeting the right audience with precision.",
       performance: "+65%",
       image:
-        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://media.istockphoto.com/id/1597792454/photo/business-people-use-seo-tools-unlocking-online-potential-boost-visibility-attract-organic.jpg?s=612x612&w=0&k=20&c=-tv6Z5F3ykWAfFSpMd5u-9Sgoe-Uv4_OCVMWhwz38Ng=",
     },
     SMM: {
       title: "Social Media Marketing (SMM)",
       description:
-        "Engage and grow your audience on Facebook, Instagram, LinkedIn, TikTok, and more.",
+        "Engage and grow your audience on Facebook, Instagram, LinkedIn, TikTok, and more. With a mix of creative campaigns, data-driven strategies, and consistent brand storytelling, we help you build a loyal community, boost engagement rates, and turn followers into paying customers.",
       performance: "+45%",
       image:
-        "https://images.unsplash.com/photo-1432888622747-4eb9a8f5a07a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://lh7-rt.googleusercontent.com/docsz/AD_4nXcHklUKjz3P7GfroDCGULKiypFN0vwyo_wHBjoOU87JcDkKp4w2Fb5bpyY3aRfr6MKt3AuwHyv6RZGTGBhkcihofad3KpmNIRW_hseZCybrKtjXvsSMYgiYlSDMqAJ5P8xaTX6lZE_xYl9W4p3mAKOLH_E?key=eAbzQ22WOOMLNKWwF6gjmA",
     },
     Content: {
       title: "Content Marketing",
       description:
-        "Craft valuable blogs, videos, and infographics to attract and retain customers.",
+        "Craft valuable blogs, videos, and infographics to attract and retain customers. Our content marketing focuses on building thought leadership, strengthening brand authority, improving SEO, and delivering meaningful value to your audience—turning curiosity into trust and trust into conversions.",
       performance: "+55%",
       image:
-        "https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://media.geeksforgeeks.org/wp-content/uploads/20230801113133/Steps-of-Content-Marketing-copy.webp",
     },
     PPC: {
-      title: "Pay-Per-Click Advertising (PPC)",
+      title: "Paid Ads (PPC & Google Ads)",
       description:
-        "Run high-RDI paid campaigns on Google, Bing, and social media platforms.",
+        "Run targeted ad campaigns that bring instant visibility, more clicks, and better conversions. With PPC, every dollar spent is optimized through advanced targeting, keyword research, and data analytics to maximize ROI, ensuring your brand consistently stays ahead of competitors.",
       performance: "+75%",
       image:
-        "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://storage.googleapis.com/mbl-strapi-prd/1_d0e90a74f5/1_d0e90a74f5.svg",
     },
+    CreativeMarketing: {
+      title: "Content & Creative Marketing",
+      description:
+        "Blogs, videos, and graphics tailored to your audience — building trust and authority. We merge creativity with strategy, delivering visually striking and emotionally engaging content that amplifies brand storytelling, strengthens online presence, and inspires your audience to take action.",
+      performance: "+70%",
+      image:
+        "https://media.istockphoto.com/id/1186285220/photo/content-marketing-news-social-media-websites-and-advertising-concept.jpg?s=612x612&w=0&k=20&c=God3SFRiRoXlE1CZfLy7otuCtDz9OgP-JrDNEQLQrYQ=",
+    },
+
     Email: {
       title: "Email Marketing",
       description:
-        "Personalized email campaigns and automation to nurture leads and boost sales.",
+        "Personalized email campaigns and automation to nurture leads and boost sales. From engaging newsletters to advanced segmentation and drip campaigns, our email marketing ensures higher open rates, stronger customer relationships, and measurable revenue-driven outcomes.",
       performance: "+60%",
       image:
-        "https://images.unsplash.com/photo-1516893842880-5d8aec507c45?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://blog.blendee.com/wp-content/uploads/2024/11/email-marketing.jpg",
     },
     Affiliate: {
       title: "Affiliate & Influencer Marketing",
       description:
-        "Partner with affiliates and influencers to expand your brand reach effectively.",
+        "Partner with affiliates and influencers to expand your brand reach effectively. By collaborating with trusted voices and niche experts, we amplify credibility, drive traffic, and generate authentic conversions—helping your brand penetrate markets faster and stronger.",
       performance: "+50%",
       image:
-        "https://images.unsplash.com/photo-1533750349088-cd871a92f312?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+        "https://socialbee.com/wp-content/uploads/2024/05/image8-1024x607.png",
+    },
+    WebUX: {
+      title: "Web & UX Optimization",
+      description:
+        "Optimize websites for speed, design, and user experience to convert more visitors into paying customers. With responsive design, intuitive navigation, and seamless interactions, our UX strategy ensures users stay engaged, explore more, and complete purchases effortlessly.",
+      performance: "+50%",
+      image:
+        "https://www.zilliondesigns.com/blog/wp-content/uploads/ui-ux-design-website-development.jpg",
     },
   };
 
@@ -80,9 +97,15 @@ const SEOServicesComponent = () => {
     },
     {
       id: "PPC",
-      name: "Pay-Per-Click Advertising (PPC)",
+      name: "Paid Ads (PPC & Google Ads)",
       description:
         "Run high-RDI paid campaigns on Google, Bing, and social media platforms.",
+    },
+    {
+      id: "CreativeMarketing",
+      name: "Content & Creative Marketing",
+      description:
+        "Blogs, videos, and graphics tailored to your audience — building trust and authority.",
     },
     {
       id: "Email",
@@ -96,9 +119,15 @@ const SEOServicesComponent = () => {
       description:
         "Partner with affiliates and influencers to expand your brand reach effectively.",
     },
+    {
+      id: "WebUX",
+      name: "Web & UX Optimization",
+      description:
+        "Optimize websites for speed, design, and user experience to convert more visitors into paying customers.",
+    },
   ];
 
-  const visibleServices = showAll ? serviceList : serviceList.slice(0, 5);
+  const visibleServices = showAll ? serviceList : serviceList.slice(0, 4);
 
   // Detect when component is in viewport
   useEffect(() => {
@@ -223,7 +252,7 @@ const SEOServicesComponent = () => {
           </div>
 
           {/* Service Details with Image */}
-          <div className="w-full lg:w-3/5">
+          <div className="w-full h-[max-content] lg:w-3/5">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeService}

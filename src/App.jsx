@@ -1,4 +1,5 @@
 import React from "react";
+import { Toaster } from "react-hot-toast";
 
 import Home from "./pages/home";
 import ContactForm from "./Components/ContactForm";
@@ -10,7 +11,9 @@ export default function App() {
     <>
       <Navbar />
       <Home />
+      <Toaster position="top-right" reverseOrder={false} />
       <ContactForm />
+     
       <Footer />
     </>
   );
